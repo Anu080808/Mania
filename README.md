@@ -19,7 +19,7 @@ https://discord.com/api/oauth2/authorize?client_id=824495798103834635&permission
 
 ## BOT COMMANDS.
 
-Bot Prefix - ,,
+Bot Prefix - ,, <br>
 
 play <name/URL> - play music in a voice channel.
 search <name> - open a panel to choose a music and then play it.
