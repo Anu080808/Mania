@@ -1,5 +1,9 @@
 # Mania
+```
+This is Simple User Friendly Discord Music Bot.
 
+This bot is 24/7 Online .
+```
 
 
 ## [Discord Mania Bot Invite Link](https://discord.com/api/oauth2/authorize?client_id=824495798103834635&permissions=8&scope=bot)
@@ -7,14 +11,8 @@ https://discord.com/api/oauth2/authorize?client_id=824495798103834635&permission
 
 
 ## [Vortex Wiki](https://github.com/jagrosh/Vortex/wiki)
-ℹ [About Vortex](https://github.com/jagrosh/Vortex/wiki/About-Vortex)  
-🌀 [Getting Started](https://github.com/jagrosh/Vortex/wiki/Getting-Started)  
-🔨 [Moderator Guide](https://github.com/jagrosh/Vortex/wiki/Moderator-Guide)  
-🚩 [Strikes](https://github.com/jagrosh/Vortex/wiki/Strikes)  
-🛡 [Auto-Moderation](https://github.com/jagrosh/Vortex/wiki/Auto-Moderation)  
-🌟 [Vortex Pro](https://github.com/jagrosh/Vortex/wiki/Vortex-Pro)  
-📜 [Full Command Reference](https://github.com/jagrosh/Vortex/wiki/Commands)  
-⚠ [Troubleshooting](https://github.com/jagrosh/Vortex/wiki/Troubleshooting) 
+
+
 
 
 ## BOT COMMANDS.
