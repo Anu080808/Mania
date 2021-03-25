@@ -13,9 +13,9 @@ https://discord.com/api/oauth2/authorize?client_id=824495798103834635&permission
 
 ## BOT COMMANDS.
 ```
-Bot Prefix - ,,
-
+◆❯❯❯ Bot Prefix ━ ,,
 ```
+
 
 ### 🎵 Music commands
 
