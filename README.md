@@ -18,8 +18,24 @@ https://discord.com/api/oauth2/authorize?client_id=824495798103834635&permission
 
 
 ## BOT COMMANDS.
- 
+
+Bot Prefix - ,,
+
+play <name/URL> - play music in a voice channel.
+search <name> - open a panel to choose a music and then play it.
+pause - pause the current music.
+resume - puts the current music back on.
+queue - see the next songs.
+clear-queue - remove music in the queue.
+shuffle - to mix the queue.
+nowplaying - see music in progress.
+loop - to enable or disable the repeat function.
+volume <1 - 100> - change the volume.
+skip - skip to next music.
+stop - stop all music.
+filter <filter> - add / remove filter.
+w-filters - see filters.
 
 
 ## Can I self-host Vortex?
-I wouldn't recommend it. Self-hosting this bot (running a copy yourself) is not supported, and no help will be provided for editing nor compiling the code in this repository. The source code is provided here for transparency about how the bot's primary features work. If you decide to edit, compile, or use this code in any way, please respect the [license](https://github.com/jagrosh/Vortex/blob/master/LICENSE)
+ 
