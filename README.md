@@ -1,51 +1,32 @@
-# Mania<p align="center">
-  <a href="https://probot.github.io"><img src="/static/robot.svg" width="160" alt="Probot's logo, a cartoon robot" /></a>
-</p>
-<h3 align="center"><a href="https://probot.github.io">Probot</a></h3>
-<p align="center">A framework for building GitHub Apps to automate and improve your workflow<p>
-<p align="center"><a href="https://npmjs.com/package/probot"><img src="https://badgen.net/npm/v/probot" alt="npm"></a> <a href="https://github.com/probot/probot/actions?query=workflow%3ACI"><img src="https://github.com/probot/probot/workflows/CI/badge.svg" alt="Build Status"></a> <a href="https://codecov.io/gh/probot/probot/"><img src="https://badgen.now.sh/codecov/c/github/probot/probot" alt="Codecov"></a> <a href="https://twitter.com/ProbotTheRobot"><img src="https://img.shields.io/twitter/follow/ProbotTheRobot.svg?style=social&logo=twitter&label=Follow" alt="@ProbotTheRobot on Twitter"></a>
+# Vortex
+[![GitHub stars](https://img.shields.io/github/stars/jagrosh/Vortex.svg?style=social&label=Stars&style=flat)](https://github.com/jagrosh/Vortex/stargazers)
+ [![GuildCount](https://img.shields.io/badge/dynamic/json.svg?label=servers&url=https%3A%2F%2Fdiscord.bots.gg%2Fapi%2Fv1%2Fbots%2F240254129333731328&query=%24.guildCount&colorB=71A2B1)](https://discord.bots.gg/bots/240254129333731328)
+ [![GitHub license](https://img.shields.io/github/license/jagrosh/Vortex.svg)](https://github.com/jagrosh/Vortex/blob/master/LICENSE)
+[![Patreon](https://img.shields.io/badge/Donate-Patreon-orange.svg)](https://www.patreon.com/jagrosh) 
+[![CodeFactor](https://www.codefactor.io/repository/github/jagrosh/vortex/badge)](https://www.codefactor.io/repository/github/jagrosh/vortex)
+<br>
+[![PrivacyPolicy](https://img.shields.io/badge/Privacy%20Policy--lightgrey.svg?style=social)](https://gist.github.com/jagrosh/f1df4441f94ca06274fa78db7cc3c526#privacy-policy)
+[![DevServer](https://discordapp.com/api/guilds/147698382092238848/widget.png?style=shield)](https://discord.gg/0p9LSGoRLu6Pet0k)
 
----
 
-If you've ever thought, "wouldn't it be cool if GitHub could…"; I'm going to stop you right there. Most features can actually be added via [GitHub Apps](https://docs.github.com/en/developers/apps), which extend GitHub and can be installed directly on organizations and user accounts and granted access to specific repositories. They come with granular permissions and built-in webhooks. Apps are first class actors within GitHub.
+## Discord Moderation Bot
+Vortex is a bot designed to keep your server safe and your staff team organized. Its moderation and logging suite keep track of your members and keep your moderators accountable. Its auto-moderator capabilities also allow it to filter out certain types of behavior without need for human intervention, lightening the load on the staff team. Finally, Vortex is designed to be fast and easy to use.
 
-## How it works
 
-**Probot is a framework for building [GitHub Apps](https://docs.github.com/en/developers/apps) in [Node.js](https://nodejs.org/)**, written in [TypeScript](https://www.typescriptlang.org/). GitHub Apps can listen to webhook events sent by a repository or organization. Probot uses its internal event emitter to perform actions based on those events. A simple Probot App might look like this:
+## [Vortex Wiki](https://github.com/jagrosh/Vortex/wiki)
+ℹ [About Vortex](https://github.com/jagrosh/Vortex/wiki/About-Vortex)  
+🌀 [Getting Started](https://github.com/jagrosh/Vortex/wiki/Getting-Started)  
+🔨 [Moderator Guide](https://github.com/jagrosh/Vortex/wiki/Moderator-Guide)  
+🚩 [Strikes](https://github.com/jagrosh/Vortex/wiki/Strikes)  
+🛡 [Auto-Moderation](https://github.com/jagrosh/Vortex/wiki/Auto-Moderation)  
+🌟 [Vortex Pro](https://github.com/jagrosh/Vortex/wiki/Vortex-Pro)  
+📜 [Full Command Reference](https://github.com/jagrosh/Vortex/wiki/Commands)  
+⚠ [Troubleshooting](https://github.com/jagrosh/Vortex/wiki/Troubleshooting) 
 
-```js
-module.exports = (app) => {
-  app.on("issues.opened", async (context) => {
-    const issueComment = context.issue({
-      body: "Thanks for opening this issue!",
-    });
-    return context.octokit.issues.createComment(issueComment);
-  });
 
-  app.onAny(async (context) => {
-    context.log.info({ event: context.name, action: context.payload.action });
-  });
+## How do I report a bug or suggest a feature?
+Feel free to open an issue with your bug report or feature request, with as many details as possible. If you'd like to write a feature, please open an issue first for discussion. For help with the bot, please see the wiki (linked above).
 
-  app.onError(async (error) => {
-    context.log.error(error);
-  });
-};
-```
 
-## Building a Probot App
-
-If you've landed in this GitHub repository and are looking to start building your own Probot App, look no further than [probot.github.io](https://probot.github.io/docs/)! The Probot website contains our extensive getting started documentation and will guide you through the set up process.
-
-This repository hosts the code for the npm Probot package which is what all Probot Apps run on. Most folks who land in this repository are likely looking to get started [building their own app](https://probot.github.io/docs/).
-
-## Contributing
-
-Probot is built by people just like you! Most of the interesting things are built _with_ Probot, so consider starting by [writing a new app](https://probot.github.io/docs/) or improving one of the [existing ones](https://github.com/search?q=topic%3Aprobot-app&type=Repositories).
-
-If you're interested in contributing to Probot itself, check out our [contributing docs](CONTRIBUTING.md) to get started.
-
-Want to chat with Probot users and contributors? [Join us in Slack](https://probot-slackin.herokuapp.com/)!
-
-## Ideas
-
-Have an idea for a cool new GitHub App (built with Probot)? That's great! If you want feedback, help, or just to share it with the world you can do so by [creating an issue in the `probot/ideas` repository](https://github.com/probot/ideas/issues/new)!
+## Can I self-host Vortex?
+I wouldn't recommend it. Self-hosting this bot (running a copy yourself) is not supported, and no help will be provided for editing nor compiling the code in this repository. The source code is provided here for transparency about how the bot's primary features work. If you decide to edit, compile, or use this code in any way, please respect the [license](https://github.com/jagrosh/Vortex/blob/master/LICENSE)
