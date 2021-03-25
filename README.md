@@ -20,9 +20,9 @@ Bot Prefix - ,,
 ### 🎵 Music commands
 
 ```
-𐂡 play <name/URL>, play music in a voice channel.
-𐂡 search <name>, open a panel to choose a music and then play it.
-pause, pause the current music.
+𐂡 play <name/URL> ━ play music in a voice channel.
+𐂡 search <name> ━ open a panel to choose a music and then play it.
+pause ━ pause the current music.
 resume, puts the current music back on.
 queue, see the next songs.
 clear-queue, remove music in the queue.
