@@ -4,13 +4,13 @@ This is Simple User Friendly Music Discord Bot .
 Add this Bot in Your Server using the invite link given below.
 ```
 
-## [Discord Mania Bot Invite Link]()
+## [Anu Ganna Bot Invite Link]()
 
 
-## [Discord Mania Bot Invite Link]()
+## [Anu Ganna 2 Bot Invite Link]()
 
 
-## [Discord Mania Bot Invite Link]()
+## [Anu Ganna 3 Bot Invite Link]()
 
 
 
